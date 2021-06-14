@@ -1,4 +1,4 @@
-package com.hugesalt.stgpetclinic.model;
+package com.hugesalt.sfgpetclinic.model;
 
 public class Person {
     private String firstName;

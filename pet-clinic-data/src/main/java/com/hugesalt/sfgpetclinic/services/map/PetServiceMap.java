@@ -2,10 +2,11 @@ package com.hugesalt.sfgpetclinic.services.map;
 
 import com.hugesalt.sfgpetclinic.model.Pet;
 import com.hugesalt.sfgpetclinic.services.CrudService;
+import com.hugesalt.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {

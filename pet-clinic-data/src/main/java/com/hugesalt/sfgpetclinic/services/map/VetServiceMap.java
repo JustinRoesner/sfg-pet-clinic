@@ -1,11 +1,12 @@
 package com.hugesalt.sfgpetclinic.services.map;
 
 import com.hugesalt.sfgpetclinic.model.Vet;
-import com.hugesalt.sfgpetclinic.services.CrudService;
 import com.hugesalt.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
